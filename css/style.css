@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+body {
+    background-color: #E5E5E5;
+}
+
+[class*="__container"] {
+    max-width: 810px;
+    margin: 0 auto;
+}
+
+.header__container {
+    font-family: 'Lato';
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 59.8px;
+    color: #1E212C;
+    margin-bottom: 92px;
+}
+
+.image__container img {
+    max-width: 100%;
+}
+
+.image__container {
+    margin-bottom: 60px;
+}
+
+.text1__container p {
+    font-family: 'Lato';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #1E212C;
+}
+
+.text1__container {
+    margin-bottom: 24px;
+}
+
+.text2__container p {
+    font-family: 'Lato';
+    font-size: 16px;
+    line-height: 25.6px;
+    color: #424551;
+}
+
+.text2__container .para1 {
+    margin-bottom: 40px;
+}
+
+.text2__container {
+    margin-bottom: 48px;
+}
+
+.text3__container p {
+    font-family: 'Lato';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #1E212C;
+    padding-left: 58px;
+}
+
+.text3__container {
+    margin-bottom: 48px;
+}
+
+.text4__container .para1 {
+    font-family: 'Lato';
+    font-size: 16px;
+    line-height: 25.6px;
+    color: #424551;
+    margin-bottom: 24px;
+}
+
+.text4__container li {
+    font-family: 'Lato';
+    font-size: 16px;
+    line-height: 25.6px;
+    color: #424551;
+    padding-left: 32px;
+}
+
+.text4__container ul {
+    margin-bottom: 24px;
+}
+
+.text4__container .para2 {
+    font-family: 'Lato';
+    font-size: 16px;
+    line-height: 25.6px;
+}
+
+.text4__container {
+    margin-bottom: 50px;
+}
+
+h2 {
+    font-weight: 900;
+    font-size: 24px;
+    max-width: 810px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.background-image {
+    background: black url("../img/Downloads-icon.png");
+    width: 250px;
+    height: 150px;
+    margin: 20px;
+    display: inline-block;
+}
+
+.background-gradient {
+    background-image: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    width: 250px;
+    height: 150px;
+    margin: 20px;
+    display: inline-block;
+}
+
+.background-image2 {
+    background: black url("../img/Downloads-icon.png") 95px 45px no-repeat;
+    width: 250px;
+    height: 150px;
+    margin: 20px;
+    display: inline-block;
+}
+
+.background-image3 {
+    background: black url("../img/Downloads-icon.png") repeat-x;
+    width: 250px;
+    height: 150px;
+    margin: 20px;
+    display: inline-block;
+}
+
+.background-image4 {
+    background: black url("../img/Downloads-icon.png") repeat-y;
+    width: 250px;
+    height: 150px;
+    margin: 20px;
+    display: inline-block;
+}
+
+.background-image5 {
+    background: black url("../img/Downloads-icon.png") center no-repeat;
+    width: 250px;
+    height: 150px;
+    margin: 20px;
+    display: inline-block;
+}
+
+.background-image6 {
+    background: black url("../img/Downloads-icon.png") top left no-repeat;
+    width: 250px;
+    height: 150px;
+    margin: 20px;
+    display: inline-block;
+}
+
+.background-image7 {
+    background: url("../img/Emblem.jpg") center no-repeat fixed;
+    height: 1600px;
+    border: 2px solid red;
+}
+
+.background-image8 {
+    background: url("../img/Emblem.jpg") center / contain no-repeat;
+    width: 600px;
+    height: 600px;
+    border: 2px solid red;
+    margin: 0 auto;
+}
+
+.background-image9 {
+    background: url("../img/Emblem.jpg") center / cover no-repeat;
+    width: 600px;
+    height: 200px;
+    border: 2px solid red;
+}
+
+.background-image10 {
+    background: url("../img/Downloads-icon.png") bottom left no-repeat, url("../img/Downloads-icon.png") right no-repeat, linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(74, 209, 96, 0.4766107126444328) 100%, rgba(0, 212, 255, 1) 100%);
+    width: 600px;
+    height: 200px;
+    border: 2px solid red;
+    margin-left: 1000px;
+}
